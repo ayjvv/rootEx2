@@ -178,6 +178,7 @@ header.none{
   border-bottom: dotted #000 2px;
 }
 
+
 /********** add-color-into ***********/
 .add-color-into{
   margin: 300px 500px 500px 500px;
@@ -366,7 +367,9 @@ header.none{
   bottom: -45px;
   left: -5px;
   font-size: 1.5rem;
+  
 }
+/* white-space: nowrap; */
 
 /********* footer **********/
 footer{
@@ -381,11 +384,15 @@ footer p{
 }
 
 
-@media (max-width : 450px){
+@media (max-width : 500px){
+  body{
+    overflow-x: hidden;
+  }
 
   /****** header ********/
   header{
     height: 70px;
+    width: 100%;
   }
   header img{
     width: 100px;
@@ -492,12 +499,12 @@ footer p{
   height: 40px;
   line-height: 40px;
   bottom: 200px;
-  left: 70px;
+  left: 50px;
 }
 .home-pliates .buy-txt{
   position: absolute;
  bottom: 200px;
- right: 160px;
+ right: 120px;
 }
 .home-pliates .buy-txt1{
   margin-bottom: 23px;
@@ -505,18 +512,44 @@ footer p{
   /********* add-color-into ***********/
   .add-color-into{
     min-width:450px;
-    margin: 20px;
+    margin: 10px;
     height: 900px;
   }
   /********** add-color-into-txt ***********/
   .add-color-into-txt{
     min-width: 450px;
+    margin: 20px;
   }
-
+  .add-color-into-txt h3{
+    font-size: var(--font-mobile-lg);
+    margin-bottom: 10px;
+  }
+  .add-color-into-txt p{
+    font-size: var(--font-mobile-md);
+    
+  }
   .add-color-into .add-color-img-btn .add-color-img-box .add-color-img img{
     width: 350px;
     margin: 60px 25px 0 25px;
   }
+  .btn-group{
+    bottom: 320px;
+  }
+  .add-color-into-txt .easy{
+    top: 620px;
+    left: 20px;
+  }
+  .add-color-into-txt .easy p{
+    width: 140px;
+  }
+  .add-color-into-txt .super-hard{
+    top: 700px;
+    right: 50px;
+  }
+  .add-color-into-txt .super-hard p{
+    width: 150px;
+  }
+
 
 
   /* .add-color-into{
