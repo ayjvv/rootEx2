@@ -384,7 +384,7 @@ footer p{
 }
 
 
-@media (max-width : 500px){
+@media (max-width : 450px){
   body{
     overflow-x: hidden;
   }
